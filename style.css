@@ -176,7 +176,7 @@ i {
 }
 
 div.tools-container {
-    width: 40%;
+    width: 90%;
     margin: 30px auto;
 }
 
@@ -204,7 +204,9 @@ ul.tools-description > li {
         text-align: justify;
         
     }
-    
+    div.tools-container {
+        width: 25%;
+    }
     .tab-pane {
         width: 80%;
     }
