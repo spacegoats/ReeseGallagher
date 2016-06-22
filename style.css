@@ -163,6 +163,10 @@ i {
     margin-bottom: 100px;
 }
 
+.project p {
+    margin-bottom: 30px;
+}
+
 .content-holder .project img {
     max-width: 600px;
     display: block;
