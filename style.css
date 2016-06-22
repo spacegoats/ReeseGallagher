@@ -42,10 +42,14 @@ i {
 }
 
 .navbar-header {
-    float: left;
+/*    float: left;*/
     padding: 0px;
     text-align: center;
     width: 100%;
+}
+
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+    margin-left: 0px;
 }
 
 .navbar-brand {
