@@ -176,14 +176,14 @@ i {
 }
 
 div.tools-container {
-    width: 80%;
+    width: 40%;
     margin: 30px auto;
 }
 
 ul.tools-description {
     margin: 15px;
     list-style-type: none;
-    text-align: center;
+    text-align: justify;
     white-space: nowrap;
 }
 
