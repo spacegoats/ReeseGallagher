@@ -80,6 +80,12 @@ i {
 .divider-line {
     margin-bottom: 50px;
 }
+.project-divider {
+    width: 100%;
+    margin-bottom: 45px;
+    border-top: 5px solid #eee;
+}
+}
 
 /* IE6 */
 
