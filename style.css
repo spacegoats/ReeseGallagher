@@ -158,6 +158,12 @@ i {
     padding-bottom: 10px;
 }
 
+.content-holder h4 {
+    text-align: center;
+    color: #bbb;
+    font-size: 12px;
+}
+
 .tab-pane {
     width: 60%;
     margin: 0 auto;
