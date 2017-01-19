@@ -3,6 +3,7 @@ body {
   margin: auto;
   display: table;
   padding: 20px 10px;
+  background-color: rgba(245, 245, 220, 0.67);
 }
 
 #b,#e,#w {
@@ -17,6 +18,8 @@ a:visited {color:#429dd4; text-decoration:none;}
 a:hover {text-decoration:underline;}
 
 pre {
+  background-color: beige;
+  padding: 40px;
   font: 11.0px 'vm-regular-italic';
   width: 335px;
   position: relative;
