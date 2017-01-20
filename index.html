@@ -28,7 +28,7 @@
 
 </script>
 
-<body>
+<body id="bio">
 
 <!-- width is 41 spaces -->
 <a href="#top"></a>
@@ -148,7 +148,12 @@ HOBBIES
 </body>
 
 <script type="text/javascript">
+  // navigation styling
+  $( document ).ready(function() {
+    $('#b').css('text-decoration','underline');
+  });
 
+  // arrow key navigation
   function leftArrowPressed() {
     window.location.href = './work.html';
   }
@@ -169,24 +174,13 @@ HOBBIES
     }
   };
 
+  jQuery("#bio").bind('swipeleft', function (event, ui) {
+      window.location = "./work.html";
+  });
+
 </script>
 <script type="text/javascript">
-  $( document ).ready(function() {
-    $('#b').css('text-decoration','underline');
-  });
+
 </script>
-<!-- <script type="text/javascript">
-    $(document).ready(function() {
-        // check cookie
-        var visited = $.cookie("visited")
 
-        if (visited == null) {
-            // $('.newsletter_layer').show();
-            alert($.cookie("visited"));
-        }
-
-        // set cookie
-        $.cookie('visited', 'yes', { expires: 7, path: '/' });
-    });
-</script> -->
 </html>
