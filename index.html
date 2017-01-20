@@ -169,21 +169,6 @@ HOBBIES
     }
   };
 
-  $('div.ui-page').live("swipeleft", function () {
-    var nextpage = $(this).next('div[data-role="work.html"]');
-    if (nextpage.length > 0) {
-        $.mobile.changePage(nextpage, "slide", false, true);
-    }
-});
-$('div.ui-page').live("swiperight", function () {
-    var prevpage = $(this).prev('div[data-role="experience.html"]');
-    if (prevpage.length > 0) {
-        $.mobile.changePage(prevpage, {
-            transition: "slide",
-            reverse: true
-        }, true, true);
-    }
-});
 </script>
 <script type="text/javascript">
   $( document ).ready(function() {
