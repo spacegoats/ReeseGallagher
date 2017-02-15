@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Happy V-Day Jac</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Coming+Soon" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<div class="slider">
+  <div>
+    <div class="text">
+      <h1>to: Jacqueline Cassman<br/>from: Reese Gallagher</h11>
+    </div>
+  </div>
+  <div>
+    <div class="text">
+      <h1>You're the love of my life,</h11>
+    </div>
+  </div>
+  <div>
+    <div class="text">
+      <h1>You're my best friend,</h11>
+    </div>
+  </div>
+  <div>
+    <div class="text">
+      <h1>and I love you more than anything.</h1>
+    </div>
+  </div>
+
+  <div>
+    <div class="wrapper">
+      <div class='hearts'>
+          <div class='heart'></div>
+      </div>
+      <h1>Happy Valentines Day</h1>
+    </div>
+  </div>
+</div>
+
+</body>
+
+<script type="text/javascript">
+$('.slider').slick({
+  dots: true,
+  infinite: true,
+  speed: 500,
+  fade: true,
+  cssEase: 'linear'
+});
+
+$(document).ready(function() {
+    var e = $('.heart');
+    for (var i = 0; i < 399; i++) {
+      e.clone().insertAfter(e);
+    }
+});
+
+</script>
+</html>
